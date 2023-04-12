@@ -1,5 +1,7 @@
 # Git und CLI nutzen
 
+<br>
+
 ## Erstelle ein lokales Projekt :ghost: 
 
 1. Ordner erstellen ```mkdir "Mein Ordner"```
@@ -29,12 +31,14 @@
 
 ---------------------------
 
-<br>
+<br> <br>
 
 ## Weiterführendes :dizzy:
 
 ### Repositories Clonen :moyai:
 git clone ```<ssh URL copied from the github.com "Code" Dropdown menu on the repository index page>```
+
+<br>
 
 ### Repositories Updaten :busts_in_silhouette:
 | What you write |	What you do |
