@@ -31,5 +31,13 @@
 
 <br>
 
-## Weiterführendes: Repositories Clonen :moyai:
-1. git clone ```<ssh URL copied from the github.com "Code" Dropdown menu on the repository index page>```
+## Weiterführendes :dizzy:
+
+### Repositories Clonen :moyai:
+git clone ```<ssh URL copied from the github.com "Code" Dropdown menu on the repository index page>```
+
+### Repositories Updaten :busts_in_silhouette:
+| What you write |	What you do |
+|:-----------:|:---------:|
+| git push	| Upload content to the remote repository |
+| git pull |	Download content from the remote repository |
