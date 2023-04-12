@@ -26,8 +26,10 @@
 4. Push von CLI zu github.com ```git push -u origin main```
 
 <br>
----------
+
+---------------------------
+
 <br>
 
-## Weiterführendes: Reppositories Clonen :moyai:
+## Weiterführendes: Repositories Clonen :moyai:
 1. git clone ```<ssh URL copied from the github.com "Code" Dropdown menu on the repository index page>```
