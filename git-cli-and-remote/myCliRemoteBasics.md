@@ -36,7 +36,8 @@
 ## Weiterführendes :dizzy:
 
 ### Repositories Clonen :moyai:
-git clone ```<ssh URL copied from the github.com "Code" Dropdown menu on the repository index page>```
+- ein Repository Clonen```git clone <ssh URL copied from the github.com "Code" Dropdown menu on the repository index page>```
+- Unterschied zwischen Fork und Clone muss nochmal genauer ausgearbeitet werden 
 
 <br>
 
