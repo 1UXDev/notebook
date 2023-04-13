@@ -53,5 +53,14 @@
   basically what you do every morning, we are merging branches with all their changes by (possibly) different folks who pushed to that branch
 - if there's only changes by Myself, I can simply merge my latest changes with the main branch locally (why tho? prob saves time for big repos...)
 
+<br>
+
+**Deleting branches**
+
+- Local branches are easily deleted with ````git branch -d MeinBranchName```, but will create an error message about "not yet being merged to head", meaning you deleted it locally but not online
+- to also delete online ```git push --delete origin `MeinBranchName```
+
+<br>
+
 > **Note**
 > For the Features I'm working on currently I possibly dont always need the newest update (time is always short...)
