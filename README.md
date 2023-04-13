@@ -5,3 +5,4 @@
 - [Markdown Notes](https://github.com/mntzd/notebook/blob/main/git-and-markdown/myMarkdownBasics.md)
 - [Git & CLI](https://github.com/mntzd/notebook/blob/main/git-cli-and-remote/myCliRemoteBasics.md)
 - [Shell Additional Notes](https://github.com/mntzd/notebook/blob/main/shell-basics/myShellBasics.md)
+- [Git Push and Pull](https://github.com/mntzd/notebook/blob/main/git-cli-and-remote/gitPushPull.md)
