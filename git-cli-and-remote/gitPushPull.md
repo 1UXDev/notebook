@@ -1,50 +1,56 @@
 # How to work with branches
 
-| :exclamation: **Remember** Nothing works automatically in Git |
-| ------------------------------------------------------------- |
+| :exclamation:  **Remember** Nothing works automatically in GIT  |
+|-----------------------------------------|
 
 <br>
-Lokale Branches auflisten ```git branch```
-Alle Branches (local und remote auflisten ```git branch -a```
-Einen branch erstellen ```git branch MeinBranchName```
-Committen ```git commit -m "meine Notiz"```
+
+## The Basics
+> **Note**
 >before branching, make sure to have pulled the most recent version of main
 
-Push to github `git push origin nameDesBranch`
-
-Branch löschen `git branch -d MeinBranchName`
+- Lokale Branches auflisten ```git branch```
+- Alle Branches (local und remote auflisten ```git branch -a```
+- Einen branch erstellen ```git branch MeinBranchName```
+- Committen ```git commit -m "meine Notiz"```
+- Push to github ```git push -u origin MeinBranchName```
+- Branch löschen ```git branch -d MeinBranchName```
+- Switch between branches ```git switch```
 
 <br>
+
 
 **Pull Request**
-<br> _Ask Maintainer to pull in our changes into their repository_
 
-1. New Pull Request on Github
-2. Define with Dropdown Menu which branch is merged into which other branch <br>
-   does Git accept the merge? ("Able to merge" -> if no, talk to other Dev / PO)
-3. Create Pull Request by clicking on Button (but this is just the request)
-4. Usually a member of the team approves the request (not oneself)
+> **Note**
+> *You ask the Maintainer to pull in Your changes into Their repository* 
+
+1. :dizzy: Create new branch with ```git switch -c MeinBranchName```
+2. :rocket: Do Awesome Changes to the files
+3. :muscle: add, commit, push!
+4. :raising_hand: Create Pull Request on Github.com <br>
+*Define with Dropdown Menu which branch is merged into which other branch (but this is just the request, not the Merge!)*
+5. :family: Share Pull Request with Team <br>
+*Usually a member of the team approves the request (not oneself) to pull the changes into Main*
+6. 🪓: Delete the Branch on Github and locally
 
 <br>
 
-**Merge**
+-----------------------------
 
+## Further Notes
+
+**Being the Merger**
 1. Open file in your repository with the Pull Request
-2. Approving / Merging Branches into main
-
-<br>
-
-**Switch between branches**
-
-- `git switch`
-- to create a new branch AND switch `git switch -c nameOfNewBranch`
+2. Review Changes, if there is a conflict resolve with Devs or PO
+3. Approving / Merging Branches into main
 
 <br>
 
 **Pull in Changes to local**
-
-- It makes sense to pull the whole repository when there were changes by multiple people `git pull origin main` <br>
-  basically what you do every morning, we are merging branches with all their changes by (possibly) different folks who pushed to that branch
+- It makes sense to pull the whole repository when there were changes by multiple people ```git pull origin main``` <br>
+basically what you do every morning, we are merging branches with all their changes by (possibly) different folks who pushed to that branch
 - if there's only changes by Myself, I can simply merge my latest changes with the main branch locally (why tho? prob saves time for big repos...)
 
-For the Feature I'm working on currently I possibly dont need the newest update (time is always short, like money)
+
+For the Feature I'm working on currently I possibly dont always need the newest update (time is always short...)
