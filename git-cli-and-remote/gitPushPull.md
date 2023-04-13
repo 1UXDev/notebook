@@ -58,7 +58,7 @@
 **Deleting branches**
 
 - Local branches are easily deleted with ````git branch -d MeinBranchName```, but will create an error message about "not yet being merged to head", meaning you deleted it locally but not online
-- to also delete online ```git push --delete origin `MeinBranchName```
+- to also delete online ```git push --delete origin MeinBranchName```
 
 <br>
 
