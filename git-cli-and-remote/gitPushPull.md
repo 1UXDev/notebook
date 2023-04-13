@@ -28,9 +28,9 @@
 2. :rocket: Do Awesome Changes to the files
 3. :muscle: add, commit, push!
 4. :raising_hand: Create Pull Request on Github.com <br>
-   _Define with Dropdown Menu which branch is merged into which other branch (but this is just the request, not the Merge!)_
+   _Define with Dropdown Menu which branch is merged into which other branch (but this is just the request, not the Merge itself!)_
 5. :family: Share Pull Request with Team <br>
-   _Usually a member of the team approves the request (not oneself) to pull the changes into Main_
+   _Usually a member of the team approves the request (not oneself) to pull (/merge) the changes into Main_
 6. 🪓: Delete the Branch on Github and locally
 
 <br>
