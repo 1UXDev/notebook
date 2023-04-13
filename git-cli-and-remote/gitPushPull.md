@@ -11,7 +11,7 @@
 > before branching, make sure to have pulled the most recent version of main
 
 - Lokale Branches auflisten `git branch`
-- Alle Branches (local und remote auflisten `git branch -a`
+- Alle Branches (local & remote) auflisten `git branch -a`
 - Einen branch erstellen `git branch MeinBranchName`
 - Committen `git commit -m "meine Notiz"`
 - Push to github `git push -u origin MeinBranchName`
