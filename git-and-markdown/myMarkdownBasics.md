@@ -28,3 +28,5 @@ Markdown ist eine Art von Markup :boom:
   - Vierzehntens
   - Nulltens
   - Achtens
+
+Das Markdown CheatSheet ist eine Super Ressource
