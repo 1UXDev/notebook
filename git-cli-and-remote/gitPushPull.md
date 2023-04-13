@@ -64,3 +64,11 @@
 
 > **Note**
 > For the Features I'm working on currently I possibly dont always need the newest update <br> 🧑‍🎓 (time is always short...)
+
+<br>
+
+------------------------
+
+<br>
+
+*[Further Notes by the Spicies](https://github.com/spiced-academy/chicory-web-dev/blob/main/sessions/git-branches-and-prs/git-branches-and-prs.md)*
