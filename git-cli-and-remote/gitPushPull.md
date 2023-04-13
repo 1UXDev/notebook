@@ -4,18 +4,20 @@
 |-----------------------------------------|
 
 <br>
-
-Einen branch erstellen ```git branch```
-Namen festlegen
+Lokale Branches auflisten ```git branch```
+Alle Branches (local und remote auflisten ```git branch -a```
+Einen branch erstellen ```git branch MeinBranchName```
 Committen ```git commit -m "meine Notiz"```
 >before branching, make sure to have pulled the most recent version of main
 
 Push to github ```git push origin nameDesBranch```
 
+Branch löschen ```git branch -d MeinBranchName```
+
 <br>
 
 **Pull Request**
-Ask Maintainer to pull in our changes into their repository
+<br> *Ask Maintainer to pull in our changes into their repository*
 1. New Pull Request on Github
 2. Define with Dropdown Menu which branch is merged into which other branch <br>
 does Git accept the merge? ("Able to merge" -> if no, talk to other Dev / PO)
