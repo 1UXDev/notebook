@@ -63,4 +63,4 @@
 <br>
 
 > **Note**
-> For the Features I'm working on currently I possibly dont always need the newest update (time is always short...)
+> For the Features I'm working on currently I possibly dont always need the newest update <br> 🧑‍🎓 (time is always short...)
