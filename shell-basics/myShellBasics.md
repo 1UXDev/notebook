@@ -4,7 +4,7 @@ Here's only stuff that was new to me <br>
 den Rest kann man unter "Weiterführende Links" finden :)
 
 - `cd ~` zur Home Directory
-- `curl <hier steht eine url>` stellt durch URL übergebene Inforationen dar
+- `curl <hier steht eine url>` stellt durch URL übergebene Informationen dar
 
 <br>
 
