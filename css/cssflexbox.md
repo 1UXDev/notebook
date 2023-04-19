@@ -1,5 +1,6 @@
-#flexbox notes
-*hier stehen nur Dinge ddie ich mir in bezug auf flexbox merken will, das ist keine Abhandlung die Flexbox von grundauf erklärt*
+# flexbox notes
+*hier stehen nur Dinge die ich mir in Bezug auf flexbox merken will, das ist keine Abhandlung die Flexbox von grundauf erklärt*
+<br>
 
 ## Parent Properties
 | Property | Value | Descr |
@@ -10,6 +11,7 @@
 |align-items|`stretch flex-start/end, center, baseline` und weitere|wie sind die Children aneinander aligned? baseline= alle Texte sind aligned, stretch = alle heights orientieren sich am parent-container|
 |align-content|'flex-start/end, stretch, center, space-between/around'|Wie sind die child-rows bei flexwrap gespaced?|
 
+<br>
 
 ## Child Properties
 | Property | Value | Descr |
@@ -19,10 +21,8 @@
 |flex-shrink | 2 | Fall notwendig, kann das Element n-mal kleiner werden als die Anderen|
 align-self|`auto | flex-start | flex-end | center | baseline | stretch`|Wie soll sich das Element im Container ausrichten?|
 
+<br>
 
 
-
-
-
-![link to Spiced Dokument](https://github.com/spiced-academy/chicory-web-dev/tree/main/sessions/css-flexbox)
-![CSS TRcisk Cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [link to Spiced Dokument](https://github.com/spiced-academy/chicory-web-dev/tree/main/sessions/css-flexbox)
+* [CSS Tricks Cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
