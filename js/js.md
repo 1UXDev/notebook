@@ -23,6 +23,8 @@ arrays are also objects, thats why you check with isArray if something is an arr
 * let xyz => scopes to immediate codeblock enclosed by {}
 * const xyz
 
+=> **whenever possible use const**
+
 <details>
   <summary>Scoping difference var & let</summary>
   ```
