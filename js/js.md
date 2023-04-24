@@ -25,6 +25,34 @@ arrays are also objects, thats why you check with isArray if something is an arr
 
 => **whenever possible use const**
 
+------------------------
+
+## JS basic Operations
+
+* Have the script load after body loaded*
+´<script src="./js/index.js" defer></script>´
+
+Truthy: True, non zero numbers, non-empty strings
+Falsy: 0, empty strings, Null, undefined
+
+
+instead of:
+if (myVar > 2){
+  console.log("Dies Das")
+}
+
+you could write:
+const boolValue = myVar > 2 // returns true or false
+if (boolValue){
+  console.log("Dies Das")
+  
+or in Shorthand:
+number > 2 ? number-- : number++;
+// also working boolValue ? number-- : number++
+
+
+------------------------
+
 <details>
   <summary>Scoping difference var & let</summary>
   ```
@@ -47,28 +75,5 @@ arrays are also objects, thats why you check with isArray if something is an arr
 
       run();
    ```
-</details>`
-```´´´´´´´``
-´<script src="./js/index.js" defer></script>´
-
----------------------
-
-Truthy: True, non zero numbers, non-empty strings
-Falsy: 0, empty strings, Null, undefined
-
-
-instead of:
-if (myVar > 2){
-  console.log("Dies Das")
-}
-
-you could write:
-const boolValue = myVar > 2 // returns true or false
-if (boolValue){
-  console.log("Dies Das")
-  
-or in Shorthand:
-number > 2 ? number-- : number++;
-// also working boolValue ? number-- : number++
-
+</details>
 
