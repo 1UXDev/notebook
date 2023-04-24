@@ -46,7 +46,7 @@ const boolValue = myVar > 2 // returns true or false
 if (boolValue){
   console.log("Dies Das")
   
-or in Shorthand:
+or in Shorthand with **ternary Operators**:
 number > 2 ? number-- : number++;
 // also working boolValue ? number-- : number++
 
