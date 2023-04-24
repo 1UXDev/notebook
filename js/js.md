@@ -51,5 +51,10 @@ arrays are also objects, thats why you check with isArray if something is an arr
 
 ´<script src="./js/index.js" defer></script>´
 
+---------------------
+
+Truthy: True, non zero numbers, non-empty strings
+Falsy: 0, empty strings, Null, undefined
+
 
 
