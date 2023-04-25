@@ -75,9 +75,17 @@ function log() {
 * Argument = Contents/Values we pass to the function myFunct("Bitte String printen")
 * Higher order function: Method takes function as Argument / Parameter
 
-**always return**
 
-
+### General Notes on functions
+* functions should only do one thing at a time
+* The **return** keyword sends the result of the function exactly to where it was called
+* There can only be one return *used* per function, but this can be "hacked" with if-statements or returning an object or array, e.g.:
+<br> ```
+function myFunct(){
+  if (a = b){
+  return c
+} else { return d}
+```
 
 ------------------------
 
