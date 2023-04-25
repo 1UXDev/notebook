@@ -52,6 +52,7 @@ number > 2 ? number-- : number++;
 
 ------------------------
 ## Functions
+*A callable piece of code that usually does some job and returns a value*
 
 ### Function Expression
 ```javascript
