@@ -71,10 +71,12 @@ function log() {
 
 ### Parameter & Arguments
 * Parameter = What the function uses to do its job: function myFunct (parameter){...}
+<br> --> even if there ist just one parameter, I could pass multiple Arguments 
 * Argument = Contents/Values we pass to the function myFunct("Bitte String printen")
 * Higher order function: Method takes function as Argument / Parameter
 
 **always return**
+
 
 
 ------------------------
