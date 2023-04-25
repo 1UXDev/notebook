@@ -50,6 +50,32 @@ or in Shorthand with **ternary Operators**:
 number > 2 ? number-- : number++;
 // also working boolValue ? number-- : number++
 
+------------------------
+## Functions
+
+### Function Expression
+```
+const log = function (){
+  console.log("hello")
+  }
+```
+*Does not work with hoisting*
+
+### Function declaration
+```
+function log() {
+  console.log("hello")
+  }
+```
+*Does work with hoisting*
+
+### Parameter & Arguments
+* Parameter = What the function uses to do its job: function myFunct (parameter){...}
+* Argument = Contents/Values we pass to the function myFunct("Bitte String printen")
+* Higher order function: Method takes function as Argument / Parameter
+
+**always return**
+
 
 ------------------------
 
