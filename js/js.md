@@ -54,7 +54,7 @@ number > 2 ? number-- : number++;
 ## Functions
 
 ### Function Expression
-```
+```javascript
 const log = function (){
   console.log("hello")
   }
@@ -62,7 +62,7 @@ const log = function (){
 *Does not work with hoisting*
 
 ### Function declaration
-```
+```javascript
 function log() {
   console.log("hello")
   }
@@ -80,18 +80,39 @@ function log() {
 * functions should only do one thing at a time
 * The **return** keyword sends the result of the function exactly to where it was called
 * There can only be one return *used* per function, but this can be "hacked" with if-statements or returning an object or array, e.g.:
-<br> ```
+
+```javascript
 function myFunct(){
   if (a = b){
   return c
 } else { return d}
 ```
 
+### Arrow Functions
+```javascript
+const myFunct = (name, number) => {
+  let a= name + number;
+  return a;
+};
+
+sayHello("Sam");
+```
+* Semicolon at the end of the function, since arrow functions are function expressions
+* no function keyword
+
+#### Arrowfunction short-form
+*Only works if you have one line of code*
+```javascript
+const myFunct = (name, number) => name + number 
+```
+* no return (it is implicit)
+* no curlybrackets
+
 ------------------------
 
 <details>
   <summary>Scoping difference var & let</summary>
-  ```
+  ```javascript
         
         function run() {
         var foo = "Foo";
