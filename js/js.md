@@ -107,6 +107,7 @@ const myFunct = (name, number) => name + number
 ```
 * no return (it is implicit)
 * no curlybrackets
+* if there is only one parameter you can even drop the parenthesis around parameter (not the case here)
 
 ------------------------
 
