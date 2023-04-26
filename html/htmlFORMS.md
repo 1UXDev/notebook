@@ -29,6 +29,7 @@
 ##Further Notes
 * <form aria-labeledby="heading"> --> h2 on top of page with id="heading" is linked for screenreaders
 * <fieldset aria-describedby="descriptionElementID"> s.o.
+* placeholder should be second hint, not the default one
 
 ----------------------------
 
