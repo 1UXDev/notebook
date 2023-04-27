@@ -10,5 +10,6 @@
 ### Woche 2 & 3
 - [js basics](https://github.com/mntzd/notebook/blob/main/js/js.md)
 - [js: working with Text](https://github.com/mntzd/notebook/blob/main/js/js-text.md)
-- [grid](https://github.com/mntzd/notebook/blob/main/grid/grid.md)
+- [CSS grid](https://github.com/mntzd/notebook/blob/main/grid/grid.md)
+- [CSS Flexbox](https://github.com/mntzd/notebook/blob/main/css/cssflexbox.md)
 - [HTML forms](https://github.com/mntzd/notebook/blob/main/html/htmlFORMS.md)
