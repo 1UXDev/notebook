@@ -11,10 +11,10 @@
 * or in one line: `event.target.elements.firstName.value`
 * "event.target" => accesses the "target" of the eventlistener (form) & returns the form elements (but only returns the "natural" form elements like input, button, etc.)
 
-### Loop through 
+### Data Object
 * FormData() Object constructs Key-Value-Pairs(-Object) to represent everything in the form
-1. const form = event.target // get the form element
-2. const formData = new FormData(form)
+1. `const form = event.target` // get the form element
+2. `const formData = new FormData(form)`
 <br>&emsp; *2.1 &emsp; console.log(FormData) // shows that this Object is not a "classic" Object*
 <br>&emsp; *2.2 &emsp; formData.get("firstName") would get the Value from the Object*
 3. const data = Object.fromEntries(formData) // transforms it to regular Object
