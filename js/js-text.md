@@ -2,7 +2,7 @@
 
 ## Access content in form fields
 * Default Behaviour: submit => Browser tries to reload page with appended parameters 
-* AddEventListener and event.preventDefault so it is not submitted on buttonclick or enter in an input field 
+* AddEventListener and **event.preventDefault()** so it is not submitted on buttonclick or enter in an input field 
 
 ### Step-by-Step Approach
 1. get the target (the form): `const form = event.target`
@@ -14,7 +14,7 @@
 ### Data Object
 * FormData() Object constructs Key-Value-Pairs(-Object) to represent everything in the form
 1. `const form = event.target` // get the form element
-2. `const formData = new FormData(form)`
+2. `const formData = new FormData(form)` //get the data in a FormData-Object
 <br>&emsp; *2.1 &emsp; console.log(FormData) // shows that this Object is not a "classic" Object*
 <br>&emsp; *2.2 &emsp; formData.get("firstName") would get the Value from the Object*
-3. const data = Object.fromEntries(formData) // transforms it to regular Object
+3. **const data = Object.fromEntries(formData)** // transforms it to regular Object
