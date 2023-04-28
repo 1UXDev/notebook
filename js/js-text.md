@@ -8,7 +8,7 @@
 1. get the target (the form): `const form = event.target`
 2. get the elements in the form: `const elements = form.elements`
 3. get the value: const values = `elements.firstName.value`
-* or in one line: `event.target.elements.firstName.value`
+* or in one line: `event.target.elements.firstName.value` **nice way to access DOM Elements :) **
 * "event.target" => accesses the "target" of the eventlistener (form) & returns the form elements (but only returns the "natural" form elements like input, button, etc.)
 
 ### Data Object
@@ -31,8 +31,15 @@
 * for input fields use event "input", for checkboxes and radios "change" may be better
 
 1. get value of input for password
-````
+```
 const password = passwordInput.value
 ```
 2. call function with users password
 ```updatePasswordStrength(password)```
+3. form.reset() on Submit event
+4. also reset passwordstrength element by calling the function updatePasswordStrength
+5. if successful return focus to first field with `firstInputField.focus()`
+
+
+
+
