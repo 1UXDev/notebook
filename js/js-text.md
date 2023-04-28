@@ -18,3 +18,6 @@
 <br>&emsp; *2.1 &emsp; console.log(FormData) // shows that this Object is not a "classic" Object*
 <br>&emsp; *2.2 &emsp; formData.get("firstName") would get the Value from the Object*
 3. **const data = Object.fromEntries(formData)** // transforms it to regular Object
+
+## Other Methods
+* Post-Requests - in the HTML it could also use GET ...
