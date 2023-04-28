@@ -1,8 +1,7 @@
 # js & forms
-* "? in Url for query string
 
 ## Access content in form fields
-* Default Behaviour: submit => Browser tries to reload page with appended parameters 
+* Default Behaviour: submit => Browser tries to reload page with appended parameters: "? in Url for query string
 * AddEventListener and **event.preventDefault()** so it is not submitted on buttonclick or enter in an input field 
 
 ### Step-by-Step Approach
