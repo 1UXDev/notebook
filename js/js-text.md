@@ -29,3 +29,10 @@
 * Inpute Attributes like `minlength ="3"` => errormessage tells user the new requirement
 * Data Vlaidation happens twice: in the front-end for the user and in the server later-on
 * for input fields use event "input", for checkboxes and radios "change" may be better
+
+1. get value of input for password
+````
+const password = passwordInput.value
+```
+2. call function with users password
+```updatePasswordStrength(password)```
