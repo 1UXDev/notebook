@@ -22,3 +22,4 @@ ___________________
 * the append-method needs a DOM-Element, thats why you create it with js first and not simply say `.append("<h1>...</h1>")`
 * Cross-Site-Scripting: Sanitizing Inputs so Users cannot send scripts through the input fields
 * * SQL injection / Prompt Injection is similar
+* With frameworks like React this is abstracted away, so manual DOM-Manipulation is not necessary
