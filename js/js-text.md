@@ -1,3 +1,4 @@
+# js & forms
 * "? in Url for query string
 
 ## Access content in form fields
@@ -21,3 +22,11 @@
 
 ## Other Methods
 * Post-Requests - in the HTML it could also use GET ...
+
+-------------------------------
+
+## Handling user Inputs
+* Data validation: check if data requirements apply (type, structure, range, etc.)
+* Inpute Attributes like `minlength ="3"` => errormessage tells user the new requirement
+* Data Vlaidation happens twice: in the front-end for the user and in the server later-on
+* for input fields use event "input", for checkboxes and radios "change" may be better
