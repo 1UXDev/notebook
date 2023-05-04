@@ -77,7 +77,9 @@ showText(upperCase)   // passing the upperCase function along
 ** When we are ready, we will call your function**
 
 
-<br><br>
+<br>
+[Example of a callback](https://github.com/mntzd/notebook/blob/main/js/callbacks/callback.png)
+<br>
 
 -------------------------------------------
 
