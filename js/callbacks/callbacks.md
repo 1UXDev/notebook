@@ -74,11 +74,15 @@ showText(upperCase)   // passing the upperCase function along
 4. the upperCase function is then executed, the parameter "text" is filled with the string, transformed to upperCase and logged
 
 *e.g. useful for asynchronus scenarios, where some task is not finished right now, but will be in the future and we want it to do something later*
-** When we are ready, we will call your function**
+
+**When we are ready, we will call your function**
 
 
 <br>
-[Example of a callback](https://github.com/mntzd/notebook/blob/main/js/callbacks/callback.png)
+
+[](https://github.com/mntzd/notebook/blob/main/js/callbacks/callback.png)
+![Example of a callback](https://github.com/mntzd/notebook/blob/main/js/callbacks/callback.png "Example of a Callback")
+
 <br>
 
 -------------------------------------------
