@@ -63,5 +63,23 @@ const filtered = games.filter(game =>{      // executed as many times as item in
 });
 
 console.log(filtered);                    // returns an array with all games released before 2000
+
+_____________________________________________
+// for simple cases it can be shortened to:
+const filtered = ... {
+  return game.publishingYear < 2000
+  }
+
+// Through the arrow-function, if there is only one line to be returned, it can be shortened even more
+games.filter(game=>game.publishingYear <2000)
 ```
+
+**Chaining methods**
+```js
+const uppercaseNamesBefore2000 = games
+.filter(game => game.publishingYear <2000)    // .filter method returns a filtered array
+.map(game => game.name.toUpperCase())         // .map iterates over names of newly created array items and transforms them to uppercase
+```
+
+
 
