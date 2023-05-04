@@ -18,7 +18,7 @@ form.addEventlistener("submit", (e) =>{
 }
 ```
 
-#### Anonymous functions
+#### Callbacks in functions - Examples
 ```javascript
 
 // Anonymous functions
@@ -48,3 +48,31 @@ const mouseTrap = (mouse) =>{    // function with the argument mouse
 skipButton.addEventListener("click", mouseTrap); // a function that is called with a string and the function argument passed as "mousetrap"
 
 ```
+<br>
+
+#### Higher Order functions
+
+```javascript
+function upperCase(text){   // logs text in Uppercase
+  const upper = text.toUpperCase();
+  console.log(upper);
+}
+
+upperCase("hi there")   // Output: HI THERE
+
+// higher Order function
+function showText(transformation){   // When you're ready, trigger the eventLlistener [transformation is a name for the "mouseTrap"
+  transformation("Changed by the Callback Function");
+}
+
+showText(upperCase)   // passing the upperCase function along
+```
+
+1. call showText-function with upperCase as argument
+2. showText has "transformation" as Parameter, which will be "upperCase"
+3. showText function body is executed, which means "upperCase" is triggered as function, that has the argument ("Changed by the Callback Function")
+4. the upperCase function is then executed, the parameter "text" is filled with the string, transformed to upperCase and logged
+
+*e.g. useful for asynchronus scenarios, where some task is not finished right now, but will be in the future and we want it to do something later*
+** When we are ready, we will call your function**
+
