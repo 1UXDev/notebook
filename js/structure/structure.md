@@ -1,4 +1,4 @@
-# Optimizinh JS Structure
+# Optimizing JS Structure
 * folder: utils -> contains e.g. authors.js
 * "export" works with functions, variables, arrays, objects 
 * "import" needs an importtype (like "data") and imports them as object
@@ -23,7 +23,7 @@ export function MyFunctToExport(){     // Function that is a Component starts wi
 } 
 ```
 
-```
+```js
 // in the other file:
 const header = Header()     // needs to be called since its a function
 ```
