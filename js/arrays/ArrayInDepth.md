@@ -83,6 +83,8 @@ students.some((student)=> student.points === 0)
 
 <br>
 
+![ArrayMethods](https://user-images.githubusercontent.com/91716565/236822113-472f61f1-2a01-4000-831c-8c24ca50893a.png)
+
 <br>
 
 -----------------------------------------------------------------------------------------------------------------------
