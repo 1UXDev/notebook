@@ -22,3 +22,5 @@
 --------------------------------------------
 
 ### Woche 4
+- [js Asynch Functions](https://github.com/mntzd/notebook/blob/main/js/asynch/asynchFunctions.md)
+- [js Advanced Array Methods](https://github.com/mntzd/notebook/blob/main/js/arrays/ArrayInDepth.md)
