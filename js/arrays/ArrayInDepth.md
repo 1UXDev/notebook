@@ -4,7 +4,7 @@
   * the returned array needs to be saved in a variable, e.g. `const returnMap = myGames.map(...`
   * will return a boolean result (*true* / *false*), if an Object should be returned, needs an if-statement in the function body
 
-* **filter**  -> filter array with given criteria and return a copy ("shadowarray")
+* **filter**  -> filter array with given criteria and return a copy ("Shadow Copy Array")
   * ```const returnFilter = myGames.filter((item)=> item.publishingYear > 1989);```
   * returns the Objects for the condition
 * **forEach** -> loop the array one time, does not return anything (so no return statement)
@@ -28,13 +28,15 @@ names.forEach((element, index)=>{     // index is optional, but good to replace 
 ```
 
 ## findIndex
-`let myName = names.findIndex("Maria")` **-> Does not work, the findIndex needs a callback function**
+returns the index number of the searched element
+
 #### works only with the callback function
 ```js
 names.findIndex((element) => element === "Maria"  // returns -1 if element is not found
 // returns only the ~~first Element~~ and then stops
 // also a case sensitive method
 ```
+* **return notwendig**
 
 ## find
 ```js
@@ -76,12 +78,14 @@ const sortedByName = students.sort((a,b) =>{
 students.some((student)=> student.points === 0)
 } // returns true once it has found something
 ```
+* like .every and .include, .some returns a boolean 
 
 
 <br>
+
 <br>
 
---------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 <br>
 
