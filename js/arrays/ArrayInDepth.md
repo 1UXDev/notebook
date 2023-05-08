@@ -48,10 +48,11 @@ names.find((element) => element === "Maria"  // returns undefined if element is 
 <br>
 
 # Sorting Arrays
-* ASCII Table 128 Symbold that can be represented (only English)
-* Unicode is an extension of ASCII (e.g. Greek or Umlaute)
+* JS converts arrayvalues into strings and compares their UTF-16 values
+* ASCII Table 128 Symbold that can be represented (only English); Unicode is an extension of ASCII (e.g. Greek or Umlaute)
 * Sort Ascending is not "1,2,10,..." but "1,10,2..."
 
+## .sort
 ```js
 const sortedByAge = students.sort(a,b) => a.age - b.age
 const sortedByName = students.sort((a,b) =>{
@@ -65,7 +66,15 @@ const sortedByName = students.sort((a,b) =>{
   return 0
 }
 ```
+**Sort uses the original array and alters it, so the original array is always like the most recent sort request**
+* thus when doing multiple sorts, we have to save the newly sorted array
+`const sortedByAgeCopy = students.slice().sort(...)  // slice without Arguments just creates a copy in the variable` 
 
+## .some
+```js
+students.some((student)=> student.points === 0)
+} // returns true once it has found something
+```
 
 
 
