@@ -44,6 +44,7 @@ names.find((element) => element === "Maria"  // returns undefined if element is 
 ```
 * find has a callback with an index value -> record index value where the first item was found and continue from there (in a loop)
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+* sollte find nicht in eine Zeile passen, braucht es ein **return statement**
 
 <br>
 
