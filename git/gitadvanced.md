@@ -11,7 +11,7 @@
 
 ## Resolving Conflicts
 -> bring conflict to my computer
-1.  **Locate the conflict (e.g. `git log`)**
+1.  **Locate the conflict (e.g. `git log` / --graph for visual representation)**
 2.  **get the latest version of both conflicting branches**
     * 2.1 ___  `git switch main` (*"Your branch is up to date with "origin/main"* can be misleading, since my origin may not be the latest origin) 
     * 2.2 ___  `git pull origin main` **(only do this when on the main branch)**
