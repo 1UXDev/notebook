@@ -31,9 +31,14 @@
     * 4.1 ___  `git push origin myFeatureBranch`
     * 4.2 ___  check merge ability on github.com
     * 4.3 ___  merge pull-requests
-    * 4.4 ___  conflict is not relevant anymore, branch can be deleted
+    * 4.4 ___  conflict is not relevant anymore, branch can be deleted locally and on github
+    <br>    *a. ______ `git switch main`*
+    <br>    *b. ______ `git pull origin main`*
+    <br>    *c. ______ `git branch -d myFeatureBranch`*
+    
 
 <br>
+
 <br>
 
 ***
