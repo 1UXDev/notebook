@@ -1,3 +1,10 @@
+## shortened Version
+```js
+const data = await fetch(url).then((response)=> response.json());
+```
+* note: debugging works in the browser, not in the console with node
+
+## some notes
 ```js
 import { CardsDisplay } from "../components/CardsDisplay/CardsDisplay.js";
 import { Button } from "../components/CardsDisplay/Button.js";
