@@ -29,3 +29,4 @@
 - [js Advanced Array Methods](https://github.com/mntzd/notebook/blob/main/js/arrays/ArrayInDepth.md)
 - [js Destructuring](https://github.com/mntzd/notebook/blob/main/js/arrays/destructuring.md)
 - [js Fetch](https://github.com/mntzd/notebook/blob/main/js/fetch/fetch.md)
+- [git Advanced](https://github.com/mntzd/notebook/blob/main/git/gitadvanced.md)
