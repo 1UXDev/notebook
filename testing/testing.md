@@ -44,7 +44,6 @@ it("should return greater of integers", () => {
   const result = max(2, 5)
   expect(result).toBe(5)
 })
-
 ```
 
 ### Steps to Test
