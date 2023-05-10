@@ -22,6 +22,7 @@ run small code blocks to test if something works
   * "no tests found" -> lets define some tests
   * to test "greet.js" -> create a file "greet.test.js"
 * The test runs everytime something in the file changes, since it usually is set to --watch-all in the config
+* npm install cross-env
 
 ```js
 test ("this is my test!", () =>{      // test is not a js function, it comes from jest
