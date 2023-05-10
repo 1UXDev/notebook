@@ -50,7 +50,8 @@ it("should return greater of integers", () => {
 ### Steps to Test
 1. set up situation
 2. execute test
-3. tidy up
+3. compare results
+4. tidy up
 
 
 <br>
