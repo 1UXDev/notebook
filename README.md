@@ -27,3 +27,5 @@
 ### Woche 4
 - [js Asynch Functions](https://github.com/mntzd/notebook/blob/main/js/asynch/asynchFunctions.md)
 - [js Advanced Array Methods](https://github.com/mntzd/notebook/blob/main/js/arrays/ArrayInDepth.md)
+- [js Destructuring](https://github.com/mntzd/notebook/blob/main/js/arrays/destructuring.md)
+- [js Fetch](https://github.com/mntzd/notebook/blob/main/js/fetch/fetch.md)
