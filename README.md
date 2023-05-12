@@ -30,3 +30,5 @@
 - [js Destructuring](https://github.com/mntzd/notebook/blob/main/js/arrays/destructuring.md)
 - [js Fetch](https://github.com/mntzd/notebook/blob/main/js/fetch/fetch.md)
 - [git Advanced](https://github.com/mntzd/notebook/blob/main/git/gitadvanced.md)
+- [react basics](https://github.com/mntzd/notebook/blob/main/react/reactBasics.md)
+- [(unit)testing](https://github.com/mntzd/notebook/blob/main/testing/testing.md)
