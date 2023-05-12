@@ -32,3 +32,8 @@
 - [git Advanced](https://github.com/mntzd/notebook/blob/main/git/gitadvanced.md)
 - [react basics](https://github.com/mntzd/notebook/blob/main/react/reactBasics.md)
 - [(unit)testing](https://github.com/mntzd/notebook/blob/main/testing/testing.md)
+
+Project Woche 4: 
+* Code: https://github.com/samuellmfa/rick-and-morty-app
+* Page: 
+
