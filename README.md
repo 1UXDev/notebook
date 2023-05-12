@@ -22,6 +22,9 @@
 - [CSS Animations](https://github.com/mntzd/notebook/blob/main/css/animation.md)
 - [HTML forms](https://github.com/mntzd/notebook/blob/main/html/htmlFORMS.md)
 
+Project Woche 2 & 3:
+* Code:
+
 --------------------------------------------
 
 ### Woche 4
@@ -34,6 +37,6 @@
 - [(unit)testing](https://github.com/mntzd/notebook/blob/main/testing/testing.md)
 
 Project Woche 4: 
-* Code: https://github.com/samuellmfa/rick-and-morty-app
-* Page: 
+* Code: https://github.com/mntzd/rick-and-morty-app
+* Page: https://samuellmfa.github.io/rick-and-morty-app/
 
