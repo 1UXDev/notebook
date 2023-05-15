@@ -3,8 +3,9 @@
 * Main
 * Footer
 
-### Component are nested into each other 
+### Component are nested into each other
 * The parent component passes information to the child component on how to display something -> **props**
+* props is an object, that can be desconstructed 
 
 <br>
 
