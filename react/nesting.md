@@ -19,6 +19,8 @@ root.rende(
 ## Props
 define, receive, render
 
+## Children
+* is a reserved keyword in react!!
 
 ```jsx
 export default function App(){
