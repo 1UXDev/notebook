@@ -41,4 +41,4 @@ Project Woche 4:
 * Page: https://samuellmfa.github.io/rick-and-morty-app/
 
 ### Woche 5
-- [...](...)
+- [react Props]([...](https://github.com/mntzd/notebook/blob/main/react/reactProps.md))
