@@ -12,8 +12,8 @@ root.rende(
   </StrictMode>
 ```
 
-```jsx
-
+```bash
+touch {avatar, logo}.js
 ```
 
 ## Props
