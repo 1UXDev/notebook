@@ -24,6 +24,7 @@
 
 Project Woche 2 & 3:
 * Code: https://github.com/mntzd/julien-quiz-app
+* Page: https://mntzd.github.io/julien-quiz-app/
 
 --------------------------------------------
 
