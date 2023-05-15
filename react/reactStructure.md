@@ -7,6 +7,8 @@
 * The parent component passes information to the child component on how to display something -> **props**
 * props is an object, that can be desconstructed 
 
+`style={{ backgroundColor: color }}`
+
 <br>
 
 <br>
