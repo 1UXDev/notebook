@@ -1,6 +1,15 @@
 * you can have N useStates
-* useState needs to be imported form react
+* useState needs to be **imported** from react
+* the destructured variable is always **in an array**, not an object!
 * setState instead of eventListener
+
+```jsx
+//instead of this
+let abc = 0
+// React uses this:
+const [abc, setAbc] = useState("default value is here") // could also be number, object, etc
+setAbc(abc+1)
+```
 
 <br>
 
