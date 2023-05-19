@@ -1,7 +1,7 @@
 # Fetching Data with react
 ```jsx
 export default function Joke(){
-  const[jokeObj, setJokeObj] = useState("");
+  const[jokeObj, setJokeObj] = useState();
   const[id, setId] = useState(0);
   
   useEffect(()=>{     // first Parameter callback, second is Array to keep Variables
