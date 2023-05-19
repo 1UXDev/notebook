@@ -67,6 +67,25 @@ const handleDeleteMovie = (id) => {
 <button onClick={()=>onDeleteMovie(id)}>
 
 ```
+### When .map is used (e.g. to toggle a button)
+* create new element
+
+```jsx
+const newmovies = movie.map((movie)=>{
+  const newMovie = {...movie} 
+  if (newMoview.id === id){
+    newMovie.isLiked = !movie.isLiked;
+  }
+  return newMovie
+}
+
+setMovies(newMovies)
+  
+  
+// Short Version for the above
+const newMovie = 
+  movie.id === id ? {...movie, isLiked: !movie.isLiked} : movie;
+```
 
 ## uid Library 
 * generates random id of defined length and gives it to component for react to render it
@@ -75,9 +94,19 @@ const handleDeleteMovie = (id) => {
 import {uid} from "uid"
 ```
 
-
+--------------------
 
 **Sidenote**
 If Data comes in as a prop, the Component is not actually responsible for the data, its just a "peek" at the data
+
+<br>
+
+<br>
+
+--------------------
+
+<br>
+
+
 
 
