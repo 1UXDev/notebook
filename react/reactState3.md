@@ -13,7 +13,7 @@ console.log(fruitsCopy) // returns array with apple as well
 * that happens with "pointing" datatypes: arrays and objects
 * With primitive types it does not work like that
 
-** Spread Operator 
+## Repetition: Spread Operator 
 ```jsx
 console.log(...fruits)
 // its like iterating over every element of the array
