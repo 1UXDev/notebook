@@ -58,3 +58,14 @@ POST /products -> add a new product to the database
 ```jsx
 
 ```
+
+### Beispiel
+```jsx
+import express from "express"
+const persons=["yair", "klaus", "gimena"]
+const app = express()
+
+app.gt("/",(req, res)=>{
+ response.json({text: "Hello from the server"})
+})
+```
