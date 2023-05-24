@@ -26,7 +26,9 @@ app.listen(8000, ()=>console.log('Server listening on port 8000')
 // When we know send a get-Request (e.g. by going to localhost:8000) we will log "Server listening on ..." in the console
 
 // --- Return something on the request ---
+// -- enhance the get-route written before and replace it with this: --
 app.get("/", (request, response) => {
   response.sendFile()
 })
+// Could also directly render HTML
 ```
