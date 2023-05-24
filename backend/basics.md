@@ -69,3 +69,40 @@ app.gt("/",(req, res)=>{
  response.json({text: "Hello from the server"})
 })
 ```
+In another directory "Client"
+
+**Other Notes**
+* Cors - Cross Origin resource sharing; also a npm package as Middleware 
+* Postman & isomnia -> Tools for http requests
+
+<br>
+
+------------------
+
+<br>
+
+## Node
+* node is a runtime environment for js, to make it executable outside of the browser
+  * can be used for more than a server
+  * With node functionalities we do not need to install them, but import them
+ 
+```jsx
+// use the node internal module fs-filesystems (data.json is in a different folder and holds an array with objects)
+import fs from fs
+
+// --- read file ---
+const fileData = fs.readFileSync('./data.json')
+// the "sync" can also be left out, but readFile then needs to call the write when its ready, otherwise it may try to write before its done processing / loading
+
+// -- we ned to change the data to a js object --
+const jsonData = JSON.parse(fileData)
+
+// --- modify that array ---
+jsonData[0].name = "Johanna Leon"
+
+// --- write to file ---
+fs.writeFileSync("./data.json", JSON.stringify(jsonData))
+```
+* you could also create new directory, delete files, get all names of images, etc.
+
+
