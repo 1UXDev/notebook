@@ -43,3 +43,20 @@ Project Woche 4:
 
 ### Woche 5
 - [react Props]([...](https://github.com/mntzd/notebook/blob/main/react/reactProps.md))
+- [react Nesting Components](https://github.com/mntzd/notebook/blob/main/react/nesting.md)
+- [react Project Setup](https://github.com/mntzd/notebook/blob/main/react/projectSetup.md)
+- [react Arrays](https://github.com/mntzd/notebook/blob/main/react/reactArrays.md)
+- [react State](https://github.com/mntzd/notebook/blob/main/react/reactState.md)
+- [react State II PassDown & liftUp](https://github.com/mntzd/notebook/blob/main/react/reactState2.md)
+- [react State III Arrays & objects](https://github.com/mntzd/notebook/blob/main/react/reactState3.md)
+
+### Woche 6
+- [backEnd Basics](https://github.com/mntzd/notebook/blob/main/backend/basics.md)
+- [react Custom Hooks](https://github.com/mntzd/notebook/blob/main/react/customHooks.md)
+- [local Storage](https://github.com/mntzd/notebook/blob/main/react/localStorage.md)
+- []()
+- []()
+
+Project Woche 6: 
+* Code: https://github.com/mntzd/climactivity
+* Page: https://climactivity.vercel.app/
