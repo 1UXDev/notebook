@@ -46,20 +46,23 @@ app.get("/:username/:repo", (req, res)=>{
 ```
 * Reihenfolg ist hier wichtig, die erste Route die passt wird genommen, deshalb müssen nicht-variablen-namen weiter nach oben
 
-### Produkte anzeigen
 
-**REST Struktur**
+
+
+
+
+### Beispiel
+
+**Beispiel: Produkte anzeigen**
+
+_REST Struktur_
 GET /products zeigt alles
 GET /products/:id zeigt ein spezifisches Produkt
 POST /products -> add a new product to the database
 
 *Alternative zu REST wäre GraphQL*
 
-```jsx
-
-```
-
-### Beispiel
+**Beispiel Express**
 ```jsx
 import express from "express"
 const persons=["yair", "klaus", "gimena"]
