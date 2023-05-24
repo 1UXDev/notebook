@@ -50,11 +50,13 @@ app.get("/:username/:repo", (req, res)=>{
 **Beispiel: Produkte anzeigen**
 
 _REST Struktur_
-GET /products zeigt alles
-GET /products/:id zeigt ein spezifisches Produkt
-POST /products -> add a new product to the database
+* GET /products zeigt alles
+* GET /products/:id zeigt ein spezifisches Produkt
+* POST /products -> add a new product to the database
 
 *Alternative zu REST wäre GraphQL*
+
+<br>
 
 **Beispiel Express**
 ```jsx
