@@ -42,7 +42,7 @@ Project Woche 4:
 * Page: https://samuellmfa.github.io/rick-and-morty-app/
 
 ### Woche 5
-- [react Props]([...](https://github.com/mntzd/notebook/blob/main/react/reactProps.md))
+- [react Props](https://github.com/mntzd/notebook/blob/main/react/reactProps.md)
 - [react Nesting Components](https://github.com/mntzd/notebook/blob/main/react/nesting.md)
 - [react Project Setup](https://github.com/mntzd/notebook/blob/main/react/projectSetup.md)
 - [react Arrays](https://github.com/mntzd/notebook/blob/main/react/reactArrays.md)
@@ -54,7 +54,6 @@ Project Woche 4:
 - [backEnd Basics](https://github.com/mntzd/notebook/blob/main/backend/basics.md)
 - [react Custom Hooks](https://github.com/mntzd/notebook/blob/main/react/customHooks.md)
 - [local Storage](https://github.com/mntzd/notebook/blob/main/react/localStorage.md)
-- []()
 - []()
 
 Project Woche 6: 
