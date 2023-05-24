@@ -82,6 +82,8 @@ In another directory "Client"
 
 <br>
 
+[From](https://github.com/spiced-academy/chicory-web-dev/tree/main/sessions/build-a-server)
+
 ## Node
 * node is a runtime environment for js, to make it executable outside of the browser
   * can be used for more than a server
@@ -107,3 +109,104 @@ fs.writeFileSync("./data.json", JSON.stringify(jsonData))
 * you could also create new directory, delete files, get all names of images, etc.
 
 
+<br>
+
+<br>
+
+------------------
+
+<br>
+
+## Minimal server
+
+Installation
+```bash
+$ npm install express cors
+```
+
+Running the server
+```bash
+$ node server.js
+```
+
+When you are too tired of stopping / restarting the server
+```bash
+$ npm install -g nodemon
+$ nodemon server.js
+```
+
+Communicating with that server from a React app
+```
+fetch('http://localhost:8000)
+```
+
+<br>
+
+<br>
+
+-----------------------
+
+<br>
+
+```jsx
+// Server.js
+import express from 'express'
+ 
+import cors from 'cors'
+
+
+const persons = ['yair', 'klaus', 'gimena']
+
+const app = express()
+
+// this is to solve the CORS problem of the browser
+app.use(cors())
+
+// routes
+app.get('/', (request, response) => {
+	response.json(persons)
+})
+
+// https://github.com/<username>
+
+app.get('/about', (req, res) => {
+	res.json({text: 'hello from about'})
+})
+/*
+GET /products -> all products
+GET /products/:id -> one product
+POST /products -> add a new product to the database
+*/
+app.get('/:user', (req, res) => {
+	// access the route parameter
+	// req.params.user
+	res.json(req.params)
+})
+
+
+app.listen(8000, () => console.log('Server listening on port 8000'))
+```
+
+-----------------
+
+```jsx
+// Storage.js
+
+// we use the node internal module fs - filesystem
+import fs from 'fs'
+
+// reading from a file
+const fileData = fs.readFileSync('./data.json')
+// we need to change the data to a js object
+const jsonData = JSON.parse(fileData)
+console.log(jsonData)
+
+// modify that array
+jsonData[0].name = "John Lennon"
+
+// write to a file - we need to turn the js object to a string
+console.log(jsonData)
+fs.writeFileSync('./data.json', JSON.stringify(jsonData))
+
+
+```
