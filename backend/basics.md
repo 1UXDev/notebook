@@ -31,4 +31,30 @@ app.get("/", (request, response) => {
   response.sendFile()
 })
 // Could also directly render HTML
+
+app.get("/about", (req, res)=>{
+ res.json({})
+})
+
+// paths as variables with ":"
+app.get("/:username/:repo", (req, res)=>{
+ //access the route parameter
+ res.json(req.params)
+})
+// if user types localhost:8000/yair/23 it returns username: yair, repo:23
+
+```
+* Reihenfolg ist hier wichtig, die erste Route die passt wird genommen, deshalb müssen nicht-variablen-namen weiter nach oben
+
+### Produkte anzeigen
+
+**REST Struktur**
+GET /products zeigt alles
+GET /products/:id zeigt ein spezifisches Produkt
+POST /products -> add a new product to the database
+
+*Alternative zu REST wäre GraphQL*
+
+```jsx
+
 ```
