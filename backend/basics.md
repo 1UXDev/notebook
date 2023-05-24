@@ -1,6 +1,3 @@
-* Applications in React need to be **build** `npm run build``
-  * puts all code in one line, removes spaces where not needed
-
 ## Express
 * Express.js: web framework for node.js
 * 2 ways to use express, either with require or via import (which can only run in a module). It makes sense to have the same logic in front and backend, thus we use import with 2 possibilities:
@@ -46,12 +43,9 @@ app.get("/:username/:repo", (req, res)=>{
 ```
 * Reihenfolg ist hier wichtig, die erste Route die passt wird genommen, deshalb müssen nicht-variablen-namen weiter nach oben
 
+<br>
 
-
-
-
-
-### Beispiel
+### Beispiele
 
 **Beispiel: Produkte anzeigen**
 
@@ -77,6 +71,8 @@ In another directory "Client"
 **Other Notes**
 * Cors - Cross Origin resource sharing; also a npm package as Middleware 
 * Postman & isomnia -> Tools for http requests
+* Applications in React need to be **build** `npm run build``
+  * puts all code in one line, removes spaces where not needed
 
 <br>
 
