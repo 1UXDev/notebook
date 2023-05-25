@@ -54,6 +54,7 @@ Project Woche 4:
 - [backEnd Basics](https://github.com/mntzd/notebook/blob/main/backend/basics.md)
 - [react Custom Hooks](https://github.com/mntzd/notebook/blob/main/react/customHooks.md)
 - [local Storage](https://github.com/mntzd/notebook/blob/main/react/localStorage.md)
+- [Next.js Basics](https://github.com/mntzd/notebook/blob/main/backend/nextJS.md)
 - []()
 
 Project Woche 6: 
