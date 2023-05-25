@@ -51,11 +51,11 @@ Project Woche 4:
 - [react State III Arrays & objects](https://github.com/mntzd/notebook/blob/main/react/reactState3.md)
 
 ### Woche 6
-- [backEnd Basics](https://github.com/mntzd/notebook/blob/main/backend/basics.md)
 - [react Custom Hooks](https://github.com/mntzd/notebook/blob/main/react/customHooks.md)
 - [local Storage](https://github.com/mntzd/notebook/blob/main/react/localStorage.md)
-- [Next.js Basics](https://github.com/mntzd/notebook/blob/main/backend/nextJS.md)
-- []()
+- [Backend - Next.js Basics](https://github.com/mntzd/notebook/blob/main/backend/nextJS.md)
+- [backEnd Basics](https://github.com/mntzd/notebook/blob/main/backend/basics.md)
+- [backEnd Exercise - LOTR](https://github.com/spiced-academy/fs-web-exercises/tree/main/sessions/nextjs-basics-and-routing/lotr-app)
 
 Project Woche 6: 
 * Code: https://github.com/mntzd/climactivity
