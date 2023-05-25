@@ -42,6 +42,7 @@ Home.module.css is for the homepage
 ```
 * pages folder needs to be named "pages", otherwise next-routing will not work
 * API-Folder is basically the backend (e.g. /api/hello returns a json)
+* to use relatvi Paths edit next-config.js and add `basePath: ".",` below `reactStrictMode: true,`
 
 <br>
 
