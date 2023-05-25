@@ -44,6 +44,11 @@ Home.module.css is for the homepage
 * API-Folder is basically the backend (e.g. /api/hello returns a json)
 * to use relatvi Paths edit next-config.js and add `basePath: ".",` below `reactStrictMode: true,`
 
+### Further Reading:
+* [Shorten / Configure imports](https://nextjs.org/docs/pages/building-your-application/configuring/absolute-imports-and-module-aliases#absolute-imports)
+* []()
+* []()
+
 <br>
 
 <br>
