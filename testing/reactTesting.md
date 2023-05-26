@@ -1,16 +1,29 @@
 # React Component Testing
 
-## Learning Objectives
+## Quicknotes
+* testing lib has to be imported as `import { render, screen } from "@testing-library/react"; import userEvent from "@testing-library/user-event";`
+* you can give props to the components and define those props in the testfunction
 
-- [ ] Understanding the idea of component testing
-- [ ] Knowing how to
-  - render a React component in tests
-  - simulate interaction with a rendered React component in tests
-  - searching for expected elements in the rendered React component
-  - formulate expected results
-- [ ] Having a general understanding of mocks
+```jsx
+test("testdescription", async () => {
+const mockFunction = test.fn()                // jest creates a Mockfunction for us
+const score = 10
 
----
+  render(<ComponentToBeTested                 // render the Component to be tested
+    playerName = "Hansi"                      // giving Attributes / Props to the component
+    playerScore = score
+    onChange={mockFunction}
+  />
+  );
+
+  const button = screen.getByRole("button", {name: "Increase Score"});  // define what to get from the rendered screen
+  expect(button).toBeInTheDocument();         // define what to expect
+
+  const inputFields = await screen.getAllByRole("textbox");
+  expect(inputFields).toHaveLength(2);
+});
+```
+
 
 ## Why Testing Frontend makes sense
 
