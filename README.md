@@ -54,6 +54,7 @@ Project Woche 4:
 - [react Custom Hooks](https://github.com/mntzd/notebook/blob/main/react/customHooks.md)
 - [local Storage](https://github.com/mntzd/notebook/blob/main/react/localStorage.md)
 - [Backend - Next.js Basics](https://github.com/mntzd/notebook/blob/main/backend/nextJS.md)
+- [Backend - Next Dynamic Routing](https://github.com/mntzd/notebook/blob/main/backend/nextDynamicRouting.md)
 - [backEnd Basics](https://github.com/mntzd/notebook/blob/main/backend/basics.md)
 - [backEnd Exercise - LOTR](https://github.com/spiced-academy/fs-web-exercises/tree/main/sessions/nextjs-basics-and-routing/lotr-app)
 
