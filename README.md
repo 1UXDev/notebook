@@ -52,6 +52,7 @@ Project Woche 4:
 
 ### Woche 6
 - [react Custom Hooks](https://github.com/mntzd/notebook/blob/main/react/customHooks.md)
+- [react Component Testing](https://github.com/mntzd/notebook/blob/main/testing/reactTesting.md)
 - [local Storage](https://github.com/mntzd/notebook/blob/main/react/localStorage.md)
 - [Backend - Next.js Basics](https://github.com/mntzd/notebook/blob/main/backend/nextJS.md)
 - [Backend - Next Dynamic Routing](https://github.com/mntzd/notebook/blob/main/backend/nextDynamicRouting.md)
