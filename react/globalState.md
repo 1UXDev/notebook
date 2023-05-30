@@ -68,3 +68,4 @@ return(
 **Zustand**
 * like redux, but a lot easyer to set up
 * Saves all the variables and functions in a folder called "stores" with a .js file
+* bot h frameworks are faster, becuase they do not re-render the whole App but only the part that we need to re-render
