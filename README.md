@@ -41,6 +41,8 @@ Project Woche 4:
 * Code: https://github.com/mntzd/rick-and-morty-app
 * Page: https://samuellmfa.github.io/rick-and-morty-app/
 
+--------------------------------------------
+
 ### Woche 5
 - [react Props](https://github.com/mntzd/notebook/blob/main/react/reactProps.md)
 - [react Nesting Components](https://github.com/mntzd/notebook/blob/main/react/nesting.md)
@@ -49,6 +51,8 @@ Project Woche 4:
 - [react State](https://github.com/mntzd/notebook/blob/main/react/reactState.md)
 - [react State II PassDown & liftUp](https://github.com/mntzd/notebook/blob/main/react/reactState2.md)
 - [react State III Arrays & objects](https://github.com/mntzd/notebook/blob/main/react/reactState3.md)
+
+--------------------------------------------
 
 ### Woche 6
 - [react Custom Hooks](https://github.com/mntzd/notebook/blob/main/react/customHooks.md)
@@ -63,6 +67,8 @@ Project Woche 4:
 Project Woche 6: 
 * Code: https://github.com/mntzd/climactivity
 * Page: https://climactivity.vercel.app/
+
+--------------------------------------------
 
 ### Woche 7
 - [react GlobalState](https://github.com/mntzd/notebook/blob/main/react/globalState.md)
