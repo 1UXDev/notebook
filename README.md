@@ -63,3 +63,6 @@ Project Woche 4:
 Project Woche 6: 
 * Code: https://github.com/mntzd/climactivity
 * Page: https://climactivity.vercel.app/
+
+### Woche 7
+- [react GlobalState](https://github.com/mntzd/notebook/blob/main/react/globalState.md)
