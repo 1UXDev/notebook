@@ -5,6 +5,8 @@
 
 ### Example
 ```jsx
+import { useImmer } from "use-immer";
+
 const [xy, UpdateXy] = useImmer([]); // Update Keyword instead of Set (optional)
 
 updateSeasons((draft) => {
