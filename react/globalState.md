@@ -17,9 +17,14 @@ const initialAnimals = [
 export default function App({Component, pageProps }){
   const [animals, setAnimals] = useState(initialAnimals) // Define the animals-Array as Variable
   
+  function handleAdd(animalID){
+   setAnimals(animals.map(animal) => animal.id === animalId ? {...animal, count: animal.count+1} : animal)
+   // everytime i press the +button: loop through animals, if the id is same as the one i pressed, spread array and add +1 to the animal value; otherwise do nothing
+  }
+  
   return(
   <Layout>
-    <Component {...pageProps} animals={animals} /> // Passing it down to the component
+    <Component {...pageProps} animals={animals} handleAdd={/> // Passing it down to the X components that need those props
   </Layout>
   )
 }
@@ -37,6 +42,8 @@ return(
   </List>
 // ...
 )
+
+
 ```
 
 
