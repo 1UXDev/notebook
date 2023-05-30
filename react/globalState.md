@@ -3,8 +3,12 @@
   * instead of lifting up, handing down etc. pp we simply **put all states** into the App component on the very top (or highest shared parent)
   * we need to pass down the prop to the children of the children if they need it -> **drilling**
   * Naming is very important, otherwise you later-on do not know what is what
-* We look at every Component and move the functionality and renders and put everything back into the App??
+* We look at every Component and move some variables and function and move things up into the App :(
+* We try to create a single source of truth with moving everything up
 
+
+
+**Example**
 ```jsx
 // ---- in App.js
 // -- intialize Array
@@ -22,9 +26,18 @@ export default function App({Component, pageProps }){
    // everytime i press the +button: loop through animals, if the id is same as the one i pressed, spread array and add +1 to the animal value; otherwise do nothing
   }
   
+  const dragonsCount = animals.find((animal)=> animal.name === "Dragons").count;
+  
+  const AnimalsCount = ()=>{
+   let count = 0
+   animals.forEach((animal=>{
+     count += animal.count
+    })
+  }
+  
   return(
-  <Layout>
-    <Component {...pageProps} animals={animals} handleAdd={/> // Passing it down to the X components that need those props
+  <Layout dragonsCount={dragonsCount}>
+    <Component {...pageProps} animals={animals} handleAdd={handleAdd}/> // Passing it down to the X components that need those props
   </Layout>
   )
 }
@@ -47,9 +60,11 @@ return(
 ```
 
 
-## Redux
+## Helpful Frameworks
+**Redux**
 * Redux creates a place to save variables and work with them
 * Complicated to set up but then you don't have to 
 
-## Zustand
+**Zustand**
 * like redux, but a lot easyer to set up
+* Saves all the variables and functions in a folder called "stores" with a .js file
