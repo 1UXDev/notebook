@@ -84,7 +84,9 @@ const {isFunny} = info;
   <p aria-label={isFunny ? "A laughing face" : "a bored face"} >
       {isFunny ? 🤣 : 😒}
   </p>
-  
+```
+
+```jsx
 // --- function to check if joke exists in array already
 // check if joke is in Array
 function checkJoke(){
