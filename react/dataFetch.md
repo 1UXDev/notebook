@@ -81,9 +81,7 @@ const info = jokesInfo.find((info)=> info.id === id) ?? {isFunny:false}; //if th
 const {isFunny} = info;
 ...
 <my element>
-  <p
-    aria-label={isFunny ? "A laughing face" : "a bored face"}
-  >
+  <p aria-label={isFunny ? "A laughing face" : "a bored face"} >
       {isFunny ? 🤣 : 😒}
   </p>
   
