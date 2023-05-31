@@ -35,6 +35,7 @@ export default function Joke() {
 
 // --- in _app.js ---
 // as placeholder for whatever page is rendered, if you add an element (e.g. Nav or H1), that will appear on every page
+// so we can also --use-- the data in every page
 import {SWRconfig} from "swr"
 
 // add fetcher function 
