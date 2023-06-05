@@ -71,10 +71,13 @@ Project Woche 6:
 --------------------------------------------
 
 ### Woche 7
-- [react GlobalState](https://github.com/mntzd/notebook/blob/main/react/globalState.md)
-- [react dataFetching](https://github.com/mntzd/notebook/blob/main/react/dataFetch.md)
+- [react GlobalState / Zustand](https://github.com/mntzd/notebook/blob/main/react/globalState.md)
+- [react dataFetching / SWR](https://github.com/mntzd/notebook/blob/main/react/dataFetch.md)
 - [react Immutable State / immer](https://github.com/mntzd/notebook/blob/main/react/reactImmutableState.md)
-- [react StyleComponents](https://github.com/mntzd/notebook/blob/main/react/styleComponents.md)
+
+Project Woche 7: 
+* Code: https://github.com/mntzd/ArtSpot
+* Page: https://art-spot.vercel.app/
 
 ### Woche 8
 - [node js Server](https://github.com/mntzd/notebook/blob/main/backend/node.md)
