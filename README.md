@@ -79,6 +79,8 @@ Project Woche 7:
 * Code: https://github.com/mntzd/ArtSpot
 * Page: https://art-spot.vercel.app/
 
+--------------------------------------------
+
 ### Woche 8
 - [node js Server](https://github.com/mntzd/notebook/blob/main/backend/node.md)
 - 
