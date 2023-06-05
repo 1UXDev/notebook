@@ -72,3 +72,10 @@ Project Woche 6:
 
 ### Woche 7
 - [react GlobalState](https://github.com/mntzd/notebook/blob/main/react/globalState.md)
+- [react dataFetching](https://github.com/mntzd/notebook/blob/main/react/dataFetch.md)
+- [react Immutable State / immer](https://github.com/mntzd/notebook/blob/main/react/reactImmutableState.md)
+- [react StyleComponents](https://github.com/mntzd/notebook/blob/main/react/styleComponents.md)
+
+### Woche 8
+- [node js Server](https://github.com/mntzd/notebook/blob/main/backend/node.md)
+- 
