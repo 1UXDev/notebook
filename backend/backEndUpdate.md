@@ -40,8 +40,22 @@ await dbConnect();
   }
 ```
 
-
 <br>
+
+**POST:**
+´´´jsx 
+if (request.method === "POST") {
+    try {
+      const productData = request.body;
+      const product = new Product(productData);
+      await product.save();
+      return response.status(201).json({ status: "Product created." });
+    } catch (error) {
+      console.error(error);
+      return response.status(400).json({ error: error.message });
+    }
+  }
+```
 
 
 -> `Product.findByID(id).populate("reviews")` Defines that Product has relations to Reviews, and Updates / Gets them accordingly
