@@ -10,6 +10,8 @@ Put:
 Delete:
 
 
+-> `Product.findByID(id).populate("reviews")` Defines that Product has relations to Reviews, and Updates / Gets them accordingly
+
 *Sidenotes*
 * Every Statuscode starting with 4 is on the client-side
 * Errorcode starting with 5 is on server side
