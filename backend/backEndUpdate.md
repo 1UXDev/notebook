@@ -1,13 +1,39 @@
 # Backend Update
 
+General Things about the Methods:
+
+
 **Two ways to alter data (except Delete and Create)**
 * Put: provide whole object
 * Patch: Specify Certain property of record
 
-Put:
+**Put:**
  the findbyIdAndUpdate method has a second argument that defines what it does. These argument start with "$" - for updating it would be $set
+```jsx
+await Product.findByIdAndUpdate(id, {
+      $set: request.body,
+    });
+```
 
-Delete:
+**Delete:**
+`await Product.findByIdAndDelete(id);`
+
+**Get**
+```jsx
+await dbConnect();
+  const { id } = request.query;
+
+  if (request.method === "GET") {
+    const product = await Product.findById(id).populate("reviews");
+
+    if (!product) {
+      return response.status(404).json({ status: "Not Found" });
+    }
+
+    response.status(200).json(product);
+  }
+```
+
 
 
 -> `Product.findByID(id).populate("reviews")` Defines that Product has relations to Reviews, and Updates / Gets them accordingly
