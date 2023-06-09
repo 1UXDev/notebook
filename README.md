@@ -85,3 +85,6 @@ Project Woche 7:
 - [node js Server](https://github.com/mntzd/notebook/blob/main/backend/node.md)
 - [BackEnd dynamic API Routes](https://github.com/mntzd/notebook/blob/main/backend/nextJS2.md)
 - [MongoDB](https://github.com/mntzd/notebook/blob/main/backend/mongo.md)
+- [Backend Read](https://github.com/mntzd/notebook/blob/main/backend/backendRead.md)
+- [Backend Write](https://github.com/mntzd/notebook/blob/main/backend/backendWrite.md)
+- [Backend Update&Delete](https://github.com/mntzd/notebook/blob/main/backend/backEndUpdate.md)
