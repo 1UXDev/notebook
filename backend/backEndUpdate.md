@@ -7,6 +7,8 @@ General Things about the Methods:
 * Put: provide whole object
 * Patch: Specify Certain property of record
 
+<br>
+
 **Put:**
  the findbyIdAndUpdate method has a second argument that defines what it does. These argument start with "$" - for updating it would be $set
 ```jsx
@@ -15,8 +17,12 @@ await Product.findByIdAndUpdate(id, {
     });
 ```
 
+<br>
+
 **Delete:**
 `await Product.findByIdAndDelete(id);`
+
+<br>
 
 **Get**
 ```jsx
@@ -34,6 +40,8 @@ await dbConnect();
   }
 ```
 
+
+<br>
 
 
 -> `Product.findByID(id).populate("reviews")` Defines that Product has relations to Reviews, and Updates / Gets them accordingly
