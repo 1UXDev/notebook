@@ -55,10 +55,12 @@ if (request.method === "POST") {
       return response.status(400).json({ error: error.message });
     }
   }
+
 ```
 
 
--> `Product.findByID(id).populate("reviews")` Defines that Product has relations to Reviews, and Updates / Gets them accordingly
+-> 
+```Product.findByID(id).populate("reviews")``` Defines that Product has relations to Reviews, and Updates / Gets them accordingly
 
 *Sidenotes*
 * Every Statuscode starting with 4 is on the client-side
