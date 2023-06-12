@@ -42,8 +42,9 @@ await dbConnect();
 
 <br>
 
-**POST:**
-´´´jsx 
+**POST**
+
+```jsx 
 if (request.method === "POST") {
     try {
       const productData = request.body;
