@@ -8,9 +8,12 @@ adds types to javascript -> prevents errors like `undefined`
 4. run via `tsc index.ts`
 5. Result: Single JS-file where everyhting is inside
 
-### ts init
+<br>
+
+**ts init**
 creates tsconfig.json to configure what kind of JS-Flavor to create
-**Possibly interesting settings**
+
+*Possibly interesting settings in the tsconfig:*
 * noEmitOnError by Default set to true (Does not emit JS file when error happens)
 * TSC with Watch Option --> will constantly monitor typscript file (when changed, js will be updated)
 
