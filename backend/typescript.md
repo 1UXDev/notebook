@@ -61,14 +61,14 @@ const result = add(1,4)
 Defining one variable as 2 possible types
 -> Special typescript syntax for this, using a pipe > | < symbol
 
-´´´jsx
+```jsx
   let username: undefined | string = undefined    // while we do not yet have a username it is undefined, when we do, it will be a string
   
   const m: undefined | string = Math.random() > .5? undefined : "hello"
   console.log(m.length)                           // returns an error, because it may be undefined
   console.log(m?.length)                          // returns then length if it's a string, otherwise it is undefined
   // also more complex conditions could be rendered here
-´´´
+```
 
 **can also be used with different values 4|5**
 ```jsx
