@@ -4,8 +4,8 @@ adds types to javascript -> prevents errors like `undefined`
 **The general process**
 1. Install Typscript & set up Typescript environment
 2. write code in .ts files
-3. code is interpreted (with React in the Background)
-4. run via `tsc index.ts`
+3. code is interpreted (with React in the Background): the generated js file looks normal, but the resulting js can now only use the "legal" ways we defined in the typescript file
+4. run via `tsc index.ts` to see output in console
 5. Result: Single JS-file where everyhting is inside
 
 <br>
@@ -34,7 +34,7 @@ n= " "
 
 <br>
 
-### Arrays and Objects
+### Arrays, Objects and other Snowflakes
 #### Arrays
 Arrays in js can stroe mixed values `["Number of Apples", 3, true]` 
 -> but this is considered bad practice in lots of programming languages 
@@ -54,6 +54,29 @@ function add(a: number, b: number): number{   // define the arguments as type:nu
 
 const result = add(1,4)
 ```
+
+<br>
+
+#### Union-Types
+Defining one variable as 2 possible types
+-> Special typescript syntax for this, using a pipe > | < symbol
+
+´´´jsx
+  let username: undefined | string = undefined    // while we do not yet have a username it is undefined, when we do, it will be a string
+  
+  const m: undefined | string = Math.random() > .5? undefined : "hello"
+  console.log(m.length)                           // returns an error, because it may be undefined
+  console.log(m?.length)                          // returns then length if it's a string, otherwise it is undefined
+  // also more complex conditions could be rendered here
+´´´
+
+**can also be used with different values 4|5**
+```jsx
+let salut: "hi" | "hello"
+salut = "h"     // -> Hovering gives us tooltip with possibly assignable values
+```
+
+<br>
 
 <br>
 
