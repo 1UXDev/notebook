@@ -33,7 +33,13 @@ let n: string = ""
 
 <br>
 
-### Arrays, Objects and other Snowflakes
+<br>
+
+------------------
+
+<br>
+
+## Arrays, Objects and other Snowflakes
 ### Arrays
 Arrays in js can stroe mixed values `["Number of Apples", 3, true]` 
 -> but this is considered bad practice in lots of programming languages 
@@ -180,6 +186,30 @@ interface Admin = {               // you can "extend" the Admin with Admin and a
 ```
 
 <br>
+
+<br>
+
+------------------
+
+<br>
+
+## Type Parameters
+* 🚫 Too complicated arr: string[] | number [] | ...
+* 🚫 Looses the Type in the further process: arr: any[] 
+* ✔️ Create a variable holding the Types
+
+```jsx
+let arrofNumbers: Array<number>
+
+function getLastElement<T>(arr: T[]):T | undefined {        // Alternative Syntax: function getLastElement<T>(arr: Array<T>):T{
+  return arr.pop()
+}
+
+let lastElement = getLastElement([1, true])
+lastElement = 12
+
+lastElement = ""      // will throw an error, because String was not allowed in the definition
+```
 
 <br>
 
