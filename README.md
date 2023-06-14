@@ -88,3 +88,6 @@ Project Woche 7:
 - [Backend Read](https://github.com/mntzd/notebook/blob/main/backend/backendRead.md)
 - [Backend Write](https://github.com/mntzd/notebook/blob/main/backend/backendWrite.md)
 - [Backend Update&Delete](https://github.com/mntzd/notebook/blob/main/backend/backEndUpdate.md)
+
+### Woche 9
+- [Typescript](https://github.com/mntzd/notebook/blob/main/backend/typescript.md)
