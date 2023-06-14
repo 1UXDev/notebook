@@ -1,5 +1,6 @@
 # Typescript
 adds types to javascript -> prevents errors like `undefined`
+-> [Official Documentation](https://www.typescriptlang.org/)
 
 **The general process**
 1. Install Typscript & set up Typescript environment
