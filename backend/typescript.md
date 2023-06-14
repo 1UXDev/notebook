@@ -3,7 +3,7 @@ adds types to javascript -> prevents errors like `undefined`
 
 **The general process**
 1. Install Typscript & set up Typescript environment
-2. write code in .ts files
+2. write your code in .ts files
 3. code is interpreted (with React in the Background): the generated js file looks normal, but the resulting js can now only use the "legal" ways we defined in the typescript file
 4. run via `tsc index.ts` to see output in console
 5. Result: Single JS-file where everyhting is inside
@@ -35,7 +35,7 @@ n= " "
 <br>
 
 ### Arrays, Objects and other Snowflakes
-#### Arrays
+### Arrays
 Arrays in js can stroe mixed values `["Number of Apples", 3, true]` 
 -> but this is considered bad practice in lots of programming languages 
 
@@ -57,7 +57,7 @@ const result = add(1,4)
 
 <br>
 
-#### Union-Types
+### Union-Types
 Defining one variable as 2 possible types
 -> Special typescript syntax for this, using a pipe > | < symbol
 
@@ -73,10 +73,112 @@ Defining one variable as 2 possible types
 **can also be used with different values 4|5**
 ```jsx
 let salut: "hi" | "hello"
-salut = "h"     // -> Hovering gives us tooltip with possibly assignable values
+// salut = "hi"     // -> Hovering over it gives us tooltip with possibly assignable values
+// This would only accept "hi" or "hello" as values - or throw an error
+
+// Example:
+let salutation: "hi" | "hello" = Math.random() > .5? "hi" : "hello"   // randomly selects hi or hello
+
+if(salut != hello){
+  console.log(salut)      // has to be "hi" since it cannot be "hello"
+}
 ```
 
 <br>
+
+### Objects
+
+```jsx
+let user{
+  id:number,
+  email?:string,    // the "?" marks email as optional, that means it could be string or undefined
+  name:string
+} = {
+  id: 123,
+  // email: "",
+  name: "",
+}
+
+console.log(user.email.length)    // returns undefined, since the length attribute cannot be read from something that is undefined
+// ... so we would have to make sure it is not undefined :)
+
+```
+
+**Annotating variables - use with caution**
+```jsx
+// lets assume we get "user" from an external source
+const email = user.email as string        // we annotate email as string
+
+console.log(email.length)     // ultimately it can still crash, if the value was undefined
+```
+
+
+#### Type Alias
+-> works as replacement of types
+
+**directly assigning type-alias**
+```jsx
+type TypeA = string
+
+function returnInput(str: TypeA):string {
+  return str
+}
+```
+
+**Using & Combining Type Alias
+```jsx
+type User = {
+  id:number,
+  email?:string,
+  name:string
+} 
+
+
+// imply that the userArray might be empty on purpose 
+let loggedInUser: User | null = null;  
+
+
+// - ! - combine type aliases
+type Admin = {
+  adminPassword: string,
+} & User        
+
+
+let user : User = {
+  id: 123,
+  // email: "",
+  name: "",
+}
+
+let admin: Admin = {
+  id:123,
+  name: "sven",
+  adminPassword: "$3cr3t!
+}
+
+admin.
+```
+
+#### Interfaces
+Similar to alias.
+* but you can declare two interfaces and it does not give an error
+* Don't do this
+
+```jsx
+interface User = {
+  id:number,
+  email?:string,
+  name:string
+} 
+
+interface Admin extends User = {
+  adminPassword: string,
+}
+
+interface Admin = {               // you can "extend" the Admin with Admin and add to it
+  adminPreference: "Darkmode",    // but this can easily get confusing
+}
+```
 
 <br>
 
@@ -88,3 +190,4 @@ salut = "h"     // -> Hovering gives us tooltip with possibly assignable values
 ### Further Reading
 - Django / possibly also Flask
 - How to creat your own server
+- Var and js/React Classes
