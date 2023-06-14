@@ -26,10 +26,9 @@ supports Number, String, Boolean, null, undefined, infinity, minus infinity
 * if you do not assign a type, it will be `any`, which defeats the purpose of typescript
 
 ```jsx
-let n: string
+let n: string = ""
 // n = 123 // will not work since it is not the declared type
 // always useful to initialize a variable with a placeholder of the type (e.g. an empty string, false, ...)
-n= " "
 ```
 
 <br>
