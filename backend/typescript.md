@@ -1,5 +1,5 @@
 # Typescript
-adds types to javascript -> prevents errors like `undefined`
+adds types to javascript -> prevents errors that we often encounter (cannot Map, undefined, is not a function ...)
 <br> -> [Official Documentation](https://www.typescriptlang.org/)
 
 **The general process**
