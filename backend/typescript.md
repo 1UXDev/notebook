@@ -1,6 +1,6 @@
 # Typescript
 adds types to javascript -> prevents errors like `undefined`
--> [Official Documentation](https://www.typescriptlang.org/)
+<br> -> [Official Documentation](https://www.typescriptlang.org/)
 
 **The general process**
 1. Install Typscript & set up Typescript environment
@@ -16,7 +16,8 @@ creates tsconfig.json to configure what kind of JS-Flavor to create
 
 *Possibly interesting settings in the tsconfig:*
 * noEmitOnError by Default set to true (Does not emit JS file when error happens)
-* TSC with Watch Option --> will constantly monitor typscript file (when changed, js will be updated)
+* TSC with Watch Option 
+<br> -> will constantly monitor typscript file (when changed, js will be updated)
 
 <br>
 
