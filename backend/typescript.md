@@ -77,7 +77,7 @@ Defining one variable as 2 possible types
   // also more complex conditions could be rendered here
 ```
 
-**can also be used with different values 4|5**
+**can also be used with different values**
 ```jsx
 let salut: "hi" | "hello"
 // salut = "hi"     // -> Hovering over it gives us tooltip with possibly assignable values
