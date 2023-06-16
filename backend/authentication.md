@@ -1,4 +1,4 @@
-# Authentication Basics
+# 👶 Authentication Basics
 
 ### Authentication vs Authorization
 Authorization: I allow the user to do something, like edit a button
@@ -94,7 +94,7 @@ res.status(200).json({})
 
 ---------------------
 
-# Tools to set cookies
+# 🚀 Authentication through Tools
 IronSessions: Does the CookieSetting for you
 
 ## NextAuth.js
