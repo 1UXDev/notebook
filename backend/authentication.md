@@ -91,8 +91,13 @@ res.status(200).json({})
 
 ### Middleware
 ??? something to do with the states inbetween request & response
+--> Research 
+
+<br>
 
 ---------------------
+
+<br>
 
 # 🚀 Authentication through Tools
 IronSessions: Does the CookieSetting for you
