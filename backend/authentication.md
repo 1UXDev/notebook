@@ -152,6 +152,30 @@ if(session){                            // do I have a logged in User?
 Email-Provider sends "Magic Links"
 -> could also be backup Auth-Method if users loses oAuth Account
 
+<br>
 
+---------------
 
+<br>
+
+# 🚫 Authorization
+If user clicks on deleting a blogpost, We need to check their privilege
+-> get it from session and check role
+-> If role is admin, delete blogpost
+-> If role is user, compare Session.UserId to UserId in DB
+
+```
+post{
+  text: String,
+  owner: "userId"
+}
+
+user {
+  name: String,
+  role: {
+    enum: ["user", "admin"],   // enumerates role
+    default: "user"
+   }
+}
+```
 
