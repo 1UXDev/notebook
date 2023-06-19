@@ -35,6 +35,35 @@ do I only review the data? Do I update it? Do I need all the data everytime or o
 
 <br>
 
+# Documents in Mongo
+* can only use 16mb files, larger files have to be split up
+
+
+```jsx
+// Two Components: Upload and Image-List
+// Two States: Images and UploadingState
+
+// Uploader passes the images via setImages
+// 
+
+// access files user uploaded through a 
+event.target.files
+// if there are files, get the first image
+files && setImage(files[0])
+
+// append in a different function to FormData Object
+// Post the FormData Object with the appended image
+
+//check if ok
+// --> Success Message -> setUploadingState("Done") + clear function 
+// --> setImages(images) -> Update component state with the retrieved images
+```
+
+**Naming Convention:**
+Service: Object, Array, Functionality --> Handling Stuff
+
+<br>
+
 <br>
 
 -----------------------
